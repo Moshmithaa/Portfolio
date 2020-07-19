@@ -1,0 +1,574 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 400px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    position: relative;
+}
+
+.header-font-styling {
+    position: absolute;
+    margin: 80px 40px 10px 80px;
+    animation: font-style 6s ease-out;
+}
+
+#me {
+    position: absolute;
+    bottom: 170px;
+    left: 95px;
+    animation: font-style 6s ease-in;
+}
+
+.about-me {
+    width: 100%;
+    height: 550px;
+    float: left;
+    position: relative;
+}
+
+.image-me {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 250px;
+    height: 450px;
+}
+
+img {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+}
+
+.about-me-heading {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    width: 400px;
+    height: 50px;
+    font-size: 3em;
+    padding-left: 10px;
+}
+
+.text-about-me {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 580px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-style {
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
+.email-style {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 30px;
+}
+
+p a {
+    text-decoration: none;
+    color: green;
+}
+
+.email-id {
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    left: 550px;
+    padding: 5px 5px 5px 20px;;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    font-size: large;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    left: 790px;
+}
+
+
+@keyframes font-style {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header-font-styling {
+        font-size: 5em;
+    }
+
+    #me {
+        font-size: 1.5em;
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .header-font-styling {
+        font-size: 40px;
+        width: 225px;
+        bottom: 200px;
+        right: 35px;
+    }
+
+    #me {
+        font-size: 20px;
+        top: 205px;
+        left: 22px;
+    }
+
+    .about-me {
+        height: 1050px;
+    }
+
+    .image-me {
+        width: 250px;
+        height: 350px;
+        left: 30px;
+    }
+
+    .img-me {
+        width: 250px;
+        height: 350px;
+    }
+
+    .about-me-heading {
+        left: -15px;
+        top: 400px;
+        font-size: 60px;
+        width: 320px;
+        height: 80px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-about-me {
+        left: 5px;
+        top: 470px;
+        width: 300px;
+        height: 550px;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    footer {
+        width: 100%;
+        height: 350px;
+        top: 1050px;
+    }
+
+    .email-id {
+        left: 30px;
+        width: 250px;
+    }
+
+    .btn {
+        top: 300px;
+        left: 110px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .header-font-styling {
+        font-size: 35px;
+        right: 100px;
+    }
+
+    #me {
+        font-size: 20px;
+        top: 200px;
+        left: 25px;
+    }
+
+    .about-me {
+        height: 890px;
+    }
+
+    .image-me {
+        width: 220px;
+        height: 320px;
+        left: 60px;
+    }
+
+    .img-me {
+        width: 220px;
+        height: 320px;
+    }
+
+    .about-me-heading {
+        left: 10px;
+        top: 370px;
+        font-size: 60px;
+        width: 320px;
+        height: 80px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-about-me {
+        left: 5px;
+        top: 450px;
+        width: 350px;
+        height: 450px;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 100%;
+        top: 900px;
+    }
+
+    .email-id {
+        left: 15px;
+        width: 250px;
+    }
+
+    .btn {
+        left: 270px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 410px) {
+    .header-font-styling {
+        font-size: 40px;
+        right: 85px;
+    }
+
+    #me {
+        font-size: 20px;
+        top: 205px;
+        left: 30px;
+    }
+
+    .about-me {
+        height: 950px;
+    }
+
+    .image-me {
+        width: 250px;
+        height: 360px;
+        left: 60px;
+    }
+
+    .img-me {
+        width: 250px;
+        height: 360px;
+    }
+
+    .about-me-heading {
+        left: 10px;
+        top: 400px;
+        font-size: 60px;
+        width: 320px;
+        height: 80px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .text-about-me {
+        left: 5px;
+        top: 470px;
+        width: 350px;
+        height: 450px;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+    footer {
+        width: 100%;
+        top: 950px;
+    }
+
+    .email-id {
+        left: 20px;
+        width: 250px;
+    }
+
+    .btn {
+        left: 280px;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 750px) {
+    .header-font-styling {
+        font-size: 45px;
+        right: 100px;
+    }
+
+    #me {
+        font-size: 25px;
+        top: 220px;
+        left: 20px;
+    }
+
+    .about-me {
+        height: 1100px;
+    }
+
+    .image-me {
+        width: 220px;
+        height: 320px;
+        left: 80px;
+    }
+
+    .img-me {
+        width: 250px;
+        height: 350px;
+    }
+
+    .about-me-heading {
+        left: 5px;
+        top: 380px;
+        font-size: 60px;
+        width: 320px;
+        height: 80px;
+        padding: 10px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    .text-about-me {
+        left: 5px;
+        top: 460px;
+        width: 350px;
+        height: 450px;
+        font-size: 22px;
+        margin: 40px;
+    }
+
+    footer {
+        width: 100%;
+        top: 1100px;
+    }
+
+    .email-id {
+        left: 35px;
+        width: 250px;
+    }
+
+    .btn {
+        left: 290px;
+    }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 1020px) {
+    .header-font-styling {
+        font-size: 3em;
+        left: -10px;
+    }
+
+    #me {
+        font-size: 2em;
+        top: 180px;
+        left: 75px;
+    }
+
+    .about-me {
+        height: 800px;
+    }
+        
+    .image-me {
+        width: 100px;
+        height: 200px;
+        left: 20px;
+    }
+
+    .img-me {
+        width: 300px;
+        height: 450px;
+        top: 100px;
+    }
+
+    .about-me-heading {
+        width: 300px;
+        height: 80px;
+        padding-left: 25px;
+        left: 400px;
+        font-size: 60px;
+    }
+
+    .text-about-me {
+        left: 350px;
+        margin-top: 20px;
+        font-size: 25px;
+        height: 600px;
+    }
+
+    footer {
+        width: 100%;
+        top: 800px;
+    }
+
+    .email-id {
+        left: 200px;
+        width: 250px;
+    }
+
+    .btn {
+        left: 460px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-font-styling {
+        font-size: 3em;
+        left: -10px;
+    }
+
+    #me {
+        font-size: 2em;
+        top: 180px;
+        left: 75px;
+    }
+
+    .about-me {
+        height: 800px;
+    }
+        
+    .image-me {
+        width: 100px;
+        height: 200px;
+        left: 20px;
+    }
+
+    .img-me {
+        width: 300px;
+        height: 450px;
+        top: 100px;
+    }
+
+    .about-me-heading {
+        width: 400px;
+        height: 80px;
+        padding-left: 25px;
+        left: 450px;
+        font-size: 70px;
+    }
+
+    .text-about-me {
+        left: 350px;
+        width: 600px;
+        margin-top: 20px;
+        font-size: 30px;
+        height: 600px;
+    }
+
+    footer {
+        width: 100%;
+        top: 800px;
+        font-size: x-large;
+    }
+
+    .email-id {
+        left: 280px;
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .btn {
+        left: 650px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 319px){
+    .header-font-styling {
+        font-size: 40px;
+        left: -50px;
+    }
+
+    #me {
+        font-size: 18px;
+        top: 210px;
+        left: 30px;
+        height: 60px;
+        width: 250px;
+        margin-right: 60px;
+    }
+
+    .about-me {
+        height: 1150px;
+    }
+
+    .image-me {
+        width: 250px;
+        height: 350px;
+        left: 20px;
+    }
+
+    .img-me {
+        width: 250px;
+        height: 350px;
+        right: 10px;
+    }
+
+    .about-me-heading {
+        font-size: 50px;
+        width: 250px;
+        height: 80px;
+        left: 10px;
+        top: 410px;
+        text-align: center;
+    }
+
+    .text-about-me {
+        left: 5px;
+        top: 470px;
+        width: 250px;
+        height: 680px;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 100%;
+        height: 400px;
+        top: 1150px;
+    }
+
+    .contact-style {
+        width: 280px;
+    }
+
+    .email-id {
+        left: 15px;
+        width: 250px;
+    }
+
+    .btn {
+        top: 360px;
+        left: 100px;
+    }
+}
